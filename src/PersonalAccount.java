@@ -7,7 +7,7 @@ public class PersonalAccount {
     private int accountNumber;
     private String accountHolder;
     private double balance;
-    private ArrayList<Amount> transactions;
+    private ArrayList<Amount> transactions ;
 
     //Constructor to initialize account
     public PersonalAccount(int accountNumber, String accountHolder) {
